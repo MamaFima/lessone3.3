@@ -12,7 +12,7 @@ pygame.display.set_caption("Игра Тир")
 icon = pygame.image.load("img/pexels-mikhail-nilov-6620577.jpg")
 pygame.display.set_icon(icon)
 
-target_img = pygame.image.load("img/target.png")
+target_img = pygame.image.load("img/target.png.png")
 target_width = 50
 target_height = 50
 
