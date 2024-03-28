@@ -44,7 +44,7 @@ while running:
                 target_x = random.randint(0, SCREEN_WIDTH - target_width)
                 target_y = random.randint(0, SCREEN_HEIGHT - target_height)
     screen.blit(target_img, (target_x, target_y))
-    show_score(10, 10)  
+    show_score(10, 10)
     pygame.display.update()
 
 pygame.quit()
